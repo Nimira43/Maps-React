@@ -1,4 +1,4 @@
-import type { Place } from './api/Place'
+import type { Place } from '../api/Place'
 
 interface MapProps {
   place: Place | null 
