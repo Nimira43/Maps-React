@@ -1,1 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Athiti', sans-serif;
+  font-weight: 300;
+}
+
+:root {
+  --primary: #111;
+  --secondary: #ff4500;
+  --light: #eee;
+  --grey-dk: #333;
+  --grey-lg: #ccc;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  border-radius: 3px;
+  
+}
