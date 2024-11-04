@@ -1,15 +1,13 @@
-import React from 'react'
+import Map from './components/Map'
+import LocationSearch from './components/LocationSearch';
 
-export default function App() {
+function App() {
   return (
     <div>
-      <h1>Maps React</h1>
-      <button className='btn btn-orange'>Orange</button>
-      <button className='btn btn-dark'>Dark</button>
-      <button className='btn btn-light'>Light</button>
-      <button className='btn btn-grey'>Grey</button>
-      <button className='btn btn-sky'>Sky</button>
+      <LocationSearch />
+      <Map />
     </div>
   )
 }
 
+export default App
