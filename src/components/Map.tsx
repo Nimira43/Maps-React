@@ -1,7 +1,7 @@
 import type { Place } from './api/Place'
 
 interface MapProps {
-  place: Place | null
+  place: Place | null 
 }
 
 export default function Maps( {place}: MapProps) {
