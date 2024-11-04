@@ -1,6 +1,10 @@
 import type { Place } from './api/Place'
 
-export default function Maps() {
+interface MapProps {
+  place: Place | null
+}
+
+export default function Maps( {place}: MapProps) {
   return (
     <div>Maps</div>
   )
