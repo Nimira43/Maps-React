@@ -8,10 +8,14 @@ interface LocationSearchProps {
 export default function LocationSearch({ onPlaceClick }: LocationSearchProps ) {
   const [term, setTerm] = useState('')
   const [places, setPlaces] = useState<Place[]>([])
-  
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault()
+    console.log('Searching API...', term)
+  }
+
   return (
     <div>
-      <form>
+      <form onSubmit={handleSubmit}>
         <label className='font-semi-bold text-[#eee]' htmlFor='term'>
           Search
         </label>
