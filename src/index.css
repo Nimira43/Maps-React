@@ -9,14 +9,7 @@
   font-weight: 300;
 }
 
-:root {
-  --orange: #ff4500;
-  --dark: #111;
-}
-
 body {
-  width: 100%;
-  height: 100vh;
-  background-color: var(--dark);
-  color: var(--orange);
+  background-color: #111;
+  color: #eee;
 }
