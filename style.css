@@ -12,7 +12,7 @@
   --primary: #111;
   --secondary: #ff4500;
   --light: #eee;
-  --grey-dk: #333;
+  --grey-dk: #222;
   --grey-lg: #ccc;
 }
 
@@ -28,7 +28,6 @@ body {
   position: relative;
   max-width: 80vw;
   min-width: 800px;
-  border: 3px solid var(--primary);
   border-radius: 3px;
   cursor: pointer;
 }
@@ -46,5 +45,12 @@ video {
   video {
     height: 95%;
     object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .player {
+    min-width: 0;
+    max-width: 95vw;
   }
 }
